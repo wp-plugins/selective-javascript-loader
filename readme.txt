@@ -11,7 +11,7 @@ Selectively loads Javascript files based on the blog section visited (index, cat
 == Description ==
 
 This plugin will try to load different Javascript files based on the blog section that is being viewed.
-For example, you have a page or a category that needs specific Javascript code but you don't want this code to be loade dwhen viewing other pages.
+For example, you have a page or a category that needs specific Javascript code but you don't want this code to be loaded when viewing other pages.
 
 When activated, the plugin will do the following:
 
@@ -20,13 +20,15 @@ When activated, the plugin will do the following:
 *  On *Category*:  will try to load the `category-cat_slug.js` file. If the file doesn't exists it will try to load the `category.js` file.
 *  On *Page*:  will try to load the `page-page_slug.js` file. If the file doesn't exists it will try to load the `page.js` file.
 
+You can define which .js files should be loaded from the plugin settings page.
+
 == Installation ==
 
 *When installing any new plugin it's always a good idea to backup your blog data before installing.*
 
 1. Upload the `SelectiveJavascriptLoader` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Configure the plugin from the Settings page
+1. Configure the plugin from the plugin settings page
 
 == Frequently Asked Questions ==
 
